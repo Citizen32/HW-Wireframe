@@ -1,18 +1,23 @@
 *{
 	font-family: Arial, Helvetica Neue, Helvetica, san-serif;
 	font-size: 18px;
+	font-weight: lighter;
 }
 
 
 body {
   width: 960px;
-  height: 100%;
   margin: 0 auto;
   background-color: #777;
  }
 
+ #Header {
+  }
+
  .row {
  	background-color: #ebebeb;
+ 	text-align: center;
+ 	color: #777;
  }
 
 #Section {
@@ -20,26 +25,42 @@ body {
 	width: 48%;
 }
 
+#Article {
+	background-color: #777;
+	margin-left: 15px;
+	margin-right: 15px;	
+}
+#Article-White{
+	color: #ebebeb;
+}
+
+#Headers {
+	background-color: #ebebeb;
+	margin-right: 25px;
+	margin-left: 25px;
+	text-align: center;
+}
+
+#P {
+	background-color: #ebebeb;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
 #Aside {
 	float: right;
 	width: 48%;
 }
 
-#Article {
-	background-color: #777;
-}
 
-#Headers {
-	background-color: #ebebeb;
-}
-
-#P {
-	background-color: #ebebeb;
-}
 
 footer{
 	width: 960px;
 	position: absolute;
 	bottom: 0;
    	background-color: #ebebeb;
+}
+
+div {
+	clear: left;
 }
