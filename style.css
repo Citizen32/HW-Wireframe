@@ -1,0 +1,45 @@
+*{
+	font-family: Arial, Helvetica Neue, Helvetica, san-serif;
+	font-size: 18px;
+}
+
+
+body {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #777;
+ }
+
+ .row {
+ 	background-color: #ebebeb;
+ }
+
+#Section {
+	float: left;
+	width: 48%;
+}
+
+#Aside {
+	float: right;
+	width: 48%;
+}
+
+#Article {
+	background-color: #777;
+}
+
+#Headers {
+	background-color: #ebebeb;
+}
+
+#P {
+	background-color: #ebebeb;
+}
+
+footer{
+	width: 960px;
+	position: absolute;
+	bottom: 0;
+   	background-color: #ebebeb;
+}
