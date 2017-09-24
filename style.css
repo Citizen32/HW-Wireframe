@@ -7,28 +7,46 @@
 
 body {
   width: 960px;
-  margin: 0 auto;
   background-color: #777;
+  margin: auto;
  }
 
  #Header {
+ 	background-color: #ebebeb;
+ 	color: #777;
+ 	text-align: center;
+ 	padding: 5px 0px 5px 0px;
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
   }
 
- .row {
+ #Nav {
  	background-color: #ebebeb;
- 	text-align: center;
  	color: #777;
+ 	text-align: center;
+ 	padding: 5px 0px 5px 0px;
+ 	margin-top: 5px;
+ 	margin-bottom: 15px;
  }
+
 
 #Section {
 	float: left;
-	width: 48%;
+	width: 56%;
+	background-color: #ebebeb;
+ 	color: #777;
+ 	text-align: center;
+ 	padding: 5px 0px 34px 0px;
+ 	margin-top: 5px;
+ 	margin-bottom: 10px;
 }
 
 #Article {
 	background-color: #777;
-	margin-left: 15px;
-	margin-right: 15px;	
+	margin-left: 20px;
+	margin-right: 20px;	
+	padding: 5px 0px 40px 0px;
+
 }
 #Article-White{
 	color: #ebebeb;
@@ -45,11 +63,18 @@ body {
 	background-color: #ebebeb;
 	margin-right: 25px;
 	margin-left: 25px;
+
 }
 
 #Aside {
 	float: right;
-	width: 48%;
+	width: 42%;
+	background-color: #ebebeb;
+ 	color: #777;
+ 	text-align: center;
+ 	padding: 5px 0px 240px 0px;
+ 	margin-top: 5px;
+ 	margin-bottom: 10px;
 }
 
 
@@ -59,8 +84,10 @@ footer{
 	position: absolute;
 	bottom: 0;
    	background-color: #ebebeb;
+ 	color: #777;
+ 	text-align: center;
+ 	padding: 5px 0px 5px 0px;
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
 }
 
-div {
-	clear: left;
-}
